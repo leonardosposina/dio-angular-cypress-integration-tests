@@ -13,17 +13,37 @@
 yarn install
 ```
 
-2 - Para iniciar o projeto Angular, utilize o comando abaixo:
+2 - Inicie o projeto Angular através do comando abaixo:
 
 ```console
 yarn start
 ```
 
-3 - Para realizar os testes, execute o seguinte comando:
+3 - Abra a interface do **Cypress Test Runner** com o seguinte comando:
 
 ```console
-
+yarn cypress open
 ```
+
+4 - Selecione e execute os testes desejados.
+
+---
+
+### 📷 Screenshots
+
+![Cypress Test Runner](docs/screenshot01.png)
+
+#### Sign Up
+
+![Cypress Sign Up Test](docs/screenshot02.png)
+
+#### Sign In
+
+![Cypress Sign In Test](docs/screenshot03.png)
+
+#### Profile
+
+![Cypress Profile Test](docs/screenshot03.png)
 
 ---
 
