@@ -2,12 +2,13 @@
 
 ## Utilizando o Cypress E2E para testar um blog em Angular
 
+Neste projeto foram criados testes de integração com o framework **Cypress**.
 
 ---
 
 ### 📝 Instruções
 
-1 - Instalar todas as dependências do projeto:
+1 - Instale todas as dependências do projeto:
 
 ```console
 yarn install
@@ -19,31 +20,39 @@ yarn install
 yarn start
 ```
 
-3 - Abra a interface do **Cypress Test Runner** com o seguinte comando:
+3- Selecione uma das opções abaixo para executar os testes:
 
-```console
-yarn cypress open
-```
+- Execute os testes via **Cypress Test Runner** (interface gráfica) com o seguinte comando:
 
-4 - Selecione e execute os testes desejados.
+  ```console
+  yarn cypress open
+  ```
+
+- Execute os testes individualmente via linha de comando:
+
+  ```console
+  yarn cypress run --spec ./cypress/integration/<arquivo-de-teste>
+  ```
+
+- Execute todos os testes via linha de comando:
+
+  ```console
+  yarn cypress run
+  ```
 
 ---
 
 ### 📷 Screenshots
 
-![Cypress Test Runner](docs/screenshot01.png)
+#### Cypress Test Runner
 
-#### Sign Up
+![Cypress Test Runner](docs/test-runner.png)
 
-![Cypress Sign Up Test](docs/screenshot02.png)
+![Cypress Sign Up Test](docs/sign-up-test.gif)
 
-#### Sign In
+#### Relatório
 
-![Cypress Sign In Test](docs/screenshot03.png)
-
-#### Profile
-
-![Cypress Profile Test](docs/screenshot03.png)
+![Cypress Test Results](docs/results.png)
 
 ---
 
